@@ -1313,6 +1313,7 @@ GameObject:
   - component: {fileID: 1826902350}
   - component: {fileID: 1826902349}
   - component: {fileID: 1826902351}
+  - component: {fileID: 1826902352}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -1444,6 +1445,19 @@ PolygonCollider2D:
       - {x: -0.5, y: -0.28866667}
       - {x: 0.5, y: -0.28866667}
   m_UseDelaunayMesh: 1
+--- !u!114 &1826902352
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1826902348}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23276ba0b22ce93499e1ac3a97ddb7fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
+  maxHealth: 3
 --- !u!1 &1889399031
 GameObject:
   m_ObjectHideFlags: 0
